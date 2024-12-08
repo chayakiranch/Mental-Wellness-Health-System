@@ -1,0 +1,151 @@
+/* General styles for header */
+.header {
+    height: 80px; /* Adjust as per your design */
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed; /* Keeps the header at the top */
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 30px;
+    background-color: #5ecaf6; /* Sky blue background for header */
+    color: white; /* White text */
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    color: white; /* Keep the title color white */
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nation-selector {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; /* Add spacing between nation selector and subscribe button */
+  }
+  
+  .nation-label {
+    margin-right: 10px;
+    font-size: 14px;
+    color: white; /* White font color */
+  }
+  
+  .nation-dropdown {
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .signin-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .signin-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style changes when scrolling */
+  .header-container.scrolled .main-header {
+    background-color: #1E90FF; /* Darker blue when scrolled */
+    color: white; /* White text when scrolled */
+  }
+  
+  /* Subheader styles */
+  .subheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5ca8e6; /* Darker shade of sky blue for subheader */
+    color: white; /* White text */
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .subheader-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .subheader-logo-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subheader-title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .nav-menu {
+    display: flex;
+  }
+  
+  .nav-menu ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-menu li {
+    margin: 0 15px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .nav-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style changes when scrolling */
+  .subheader.scrolled {
+    background-color: #0d0d0d; /* Darker blue for subheader when scrolled */
+    color: white; /* White text when scrolled */
+  }
+  

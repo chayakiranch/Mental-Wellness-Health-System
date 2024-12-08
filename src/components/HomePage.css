@@ -1,0 +1,347 @@
+/* Main content styling */
+.main-content {
+  padding-top: 100px;
+  flex: 1;
+  min-height: calc(100vh - 80px - 50px);
+  padding-top: 150px; /* Added padding for spacing on smaller screens */
+  
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensures it takes full width */
+  padding: 20px; /* Adds spacing within the section */
+  background-color: #442dda; /* Purple background */
+  color: white;
+  flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Hero Section */
+/* Hero Section Content */
+.hero-section .content h1 {
+  font-size: 3.5rem; /* Increased font size for the main heading */
+  margin-bottom: 1.5rem;
+}
+
+.hero-section .content p {
+  font-size: 1.5rem; /* Increased font size for the paragraph text */
+  margin-bottom: 2rem;
+}
+
+.hero-section .dropdown {
+  font-size: 1.0rem; /* Increased font size for the dropdown */
+  padding: 12px; /* Slightly increased padding for better usability */
+}
+
+.hero-section .explore-button {
+  font-size: 1.0rem; /* Increased font size for the button text */
+  padding: 12px 24px; /* Adjusted padding to balance the button size */
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensures it takes full width */
+  padding: 60px; /* Increased padding for more vertical spacing */
+  min-height: 600px; /* Increased minimum height for a taller hero section */
+  background-color: #442dda; /* Purple background */
+  color: white;
+  flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Hero Section Content */
+.hero-section .content {
+  flex: 1; /* Adjusts to take up available space */
+  margin-right: 20px; /* Adds space between text and image */
+  text-align: center; /* Centers text for better readability */
+}
+
+.hero-section .image-container {
+  flex: 1; /* Adjusts to take up available space */
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section .person-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures image fills space without distortion */
+  border-radius: 10px;
+}
+
+
+/* New Section Styling */
+.new-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensures it spans the entire width */
+  padding: 20px; /* Adds spacing inside the section */
+  margin: 20px auto; /* Adds vertical spacing between sections */
+  background-color: #eb27cd; /* Light purple background */
+  color: #333; /* Darker text for readability */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  flex-wrap: wrap; /* Enables wrapping for smaller screens */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Promo Content */
+.new-section .promo-content {
+  flex: 1; /* Adjusts to take up available space */
+  margin-right: 20px; /* Adds space between text and image */
+}
+
+.new-section .promo-content h2 {
+  font-size: 2rem; /* Adjusts heading size */
+  margin-bottom: 1rem;
+}
+
+.new-section .promo-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.new-section .promo-content .mhf-button {
+  display: inline-block;
+  background-color: #4a1d87; /* Purple button */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.new-section .promo-content .mhf-button:hover {
+  background-color: #3a1573;
+}
+
+/* Promo Image */
+.new-section .promo-image {
+  flex: 1; /* Adjusts to take up available space */
+  display: flex;
+  justify-content: center;
+}
+
+.new-section .promo-image img {
+  max-width: 100%; /* Ensures the image scales responsively */
+  height: auto;
+  border-radius: 10px; /* Rounds corners */
+  object-fit: cover; /* Ensures the image fills space without distortion */
+}
+
+/* Infromation Section Styling */
+.carousel-section {
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.carousel-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+.carousel-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.carousel-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.carousel-item h3 {
+  font-size: 1.2rem;
+  color: #4b0082;
+  margin-bottom: 10px;
+}
+
+.carousel-item p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  background-color: #4b0082;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.learn-more-btn:hover {
+  background-color: #5e1a93;
+}
+
+/* Adjust grid layout for smaller screens */
+@media (max-width: 768px) {
+  .carousel-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Our work section */
+.support-work {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.support-work h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.support-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.support-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+.support-card img.support-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.support-card h3 {
+  color: #4c2d84; /* Purple color */
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+.support-card p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0 15px 20px;
+  line-height: 1.5;
+}
+
+.support-button {
+  background-color: #4c2d84; /* Purple */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.support-button:hover {
+  background-color: #2a1352; /* Darker purple */
+}
+
+/* Most popular topics section */
+.popular-topics {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.popular-topics h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+.topics-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topic-card {
+  position: relative;
+  background: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.topic-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.topic-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.topic-label.research {
+  background-color: #f27919; /* Orange */
+}
+
+.topic-label.report {
+  background-color: #4caf50; /* Green */
+}
+
+.topic-label.article {
+  background-color: #6a1b9a; /* Purple */
+}
+
+.topic-label.blog {
+  background-color: #3f51b5; /* Blue */
+}
+
+.topic-description {
+  padding: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
