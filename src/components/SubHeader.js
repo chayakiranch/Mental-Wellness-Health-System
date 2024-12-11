@@ -6,7 +6,7 @@ const Subheader = () => {
     <div className="subheader">
       <div className="subheader-logo">
         <a href="/" className="subheader-logo-link">
-          <span className="subheader-title">MINDFUL</span> <span className="subheader-title">MOVES</span>
+          <span className="subheader-title">MIND</span> <span className="subheader-title">MOVES</span>
         </a>
       </div>
       <nav className="nav-menu">

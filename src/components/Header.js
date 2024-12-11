@@ -25,7 +25,7 @@ const Header = () => {
         <div className="logo">
           <img src="/images/Your_logo.png" alt="System Design Logo" className="logo-icon" />
         </div>
-        <h1 className="title">Mental Wellness System</h1>
+        <h1 className="title">Mental Health System</h1>
         <div className="actions">
           <div className="nation-selector">
             <label htmlFor="nation-dropdown" className="nation-label">Select Your Nation:</label>
@@ -33,9 +33,7 @@ const Header = () => {
               <option value="usa">United States</option>
               <option value="uk">United Kingdom</option>
               <option value="canada">Canada</option>
-              <option value="australia">Australia</option>
               <option value="india">India</option>
-              <option value="germany">Germany</option>
             </select>
             </div>
           <a href="/Signup" className="subscribe-button" aria-label="Go to Signup page">Subscribe</a>

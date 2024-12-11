@@ -25,7 +25,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 9px 30px;
-    background-color: #5ecaf6; /* Sky blue background for header */
+    background-color: rgb(0, 0, 0); /* Sky blue background for header */
     color: white; /* White text */
   }
   
@@ -89,7 +89,7 @@
   
   /* Style changes when scrolling */
   .header-container.scrolled .main-header {
-    background-color: #1E90FF; /* Darker blue when scrolled */
+    background-color: #000000; /* Darker blue when scrolled */
     color: white; /* White text when scrolled */
   }
   
