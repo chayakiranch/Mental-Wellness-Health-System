@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mental-Wellness-Health-System/static/css/main.e3ed5ea2.css",
+    "main.js": "/Mental-Wellness-Health-System/static/js/main.bca2af5c.js",
+    "static/js/453.26f9f5b7.chunk.js": "/Mental-Wellness-Health-System/static/js/453.26f9f5b7.chunk.js",
+    "index.html": "/Mental-Wellness-Health-System/index.html",
+    "main.e3ed5ea2.css.map": "/Mental-Wellness-Health-System/static/css/main.e3ed5ea2.css.map",
+    "main.bca2af5c.js.map": "/Mental-Wellness-Health-System/static/js/main.bca2af5c.js.map",
+    "453.26f9f5b7.chunk.js.map": "/Mental-Wellness-Health-System/static/js/453.26f9f5b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3ed5ea2.css",
+    "static/js/main.bca2af5c.js"
+  ]
+}
